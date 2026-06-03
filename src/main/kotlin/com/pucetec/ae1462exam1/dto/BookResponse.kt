@@ -1,0 +1,10 @@
+package com.pucetec.ae1462exam1.dto
+
+data class BookResponse(
+    val id: Long,
+    val title: String,
+    val author: String,
+    val slug: String,
+    val priceUsd: Double,
+    val finalPrice: Double
+)
